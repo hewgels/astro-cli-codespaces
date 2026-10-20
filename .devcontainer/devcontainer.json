@@ -4,7 +4,9 @@
     "ghcr.io/astronomer/devcontainer-features/astro-cli:1": {
       "version": "v1.28.1"
     },
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "moby": false
+    }
   },
   "forwardPorts": [8080]
 }
